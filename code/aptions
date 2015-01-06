@@ -1,0 +1,45 @@
+# astyle options file
+# 1. How to use: astyle --options= <THIS-FILE> <SOURCE-FILES>
+
+##############################
+# BRACKET STYLE OPTIONS
+##############################
+# --style=break
+# --style=attach
+# --style=kr
+# --style=stroustrup
+# --style=whitesmith
+# --style=banner
+# --style=gnu
+# --style=linux
+# --style=horstmann
+# MY CHOICE FOR PoS
+--style=1tbs 
+#--style=pico
+#--style=lisp
+
+
+##############################
+# TAB OPTIONS
+##############################
+--indent=spaces=4
+#--indent=tab
+#--indent=force-tab
+
+
+##############################
+# INDENTATION OPTIONS
+##############################
+--indent-classes
+--indent-switches
+--indent-cases
+
+##############################
+# PADDING OPTIONS
+##############################
+--pad-paren
+
+##############################
+# FORMATTING OPTIONS
+##############################
+--add-brackets 

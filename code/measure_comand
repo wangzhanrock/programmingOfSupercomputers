@@ -1,0 +1,6 @@
+SCOREP_METRIC_PAPI=PAPI_TOT_CYC, PAPI_FP_INS
+SCOREP_METRIC_RUSAGE=all
+
+srun_ps -x -n 4 ./gccg ../../input/pent.geo.bin ../output/pent_dual dual
+
+psc_frontend --apprun='./gccg ../../input/pent.geo.bin ../output/pent_dual dual' --mpinumprocs=4 --strategy=MPI --force-localhost --phase=INIT_Phase
